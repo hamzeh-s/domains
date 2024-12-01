@@ -22,6 +22,7 @@ D('is-an.app', NewRegistrar('none'), DnsProvider(NewDnsProvider('cloudflare')), 
 
   // subdomains, given for free previously
   A('medlexo', '185.27.134.137', CF_PROXY_ON),
+  A('b', '49.13.228.52', CF_PROXY_ON),
   CNAME('abhirockz', 'yopremium21.github.io.'),
   CNAME('aviana', 'cname.vercel-dns.com.'),
   CNAME('azumi', 'azumi-development.github.io.', CF_PROXY_ON),
@@ -49,4 +50,5 @@ D('is-an.app', NewRegistrar('none'), DnsProvider(NewDnsProvider('cloudflare')), 
   CNAME('smp', 'yandao0313.github.io.'),
   CNAME('snapscript', 'cname.vercel-dns.com.'),
   CNAME('yt2mp3', 'cname.vercel-dns.com.'),
+
 END)
